@@ -369,7 +369,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1;
@@ -497,7 +497,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
-  font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -3917,7 +3917,7 @@ button, .button {
 #location {
   color: white;
   background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  background-color: black; }
   #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
     color: white; }
   #location a {
@@ -3942,7 +3942,7 @@ button, .button {
 #about {
   color: white;
   background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  background-color: black; }
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about a {
@@ -4080,3 +4080,8 @@ button, .button {
       line-height: 1em; }
       #footer .row p a {
         color: #f59761; }
+
+#form {
+  margin-top: 1em; }
+  #form form.mktoForm {
+    margin: 0 auto; }
