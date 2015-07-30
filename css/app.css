@@ -3913,6 +3913,12 @@ button, .button {
   #speakers .speaker-description {
     text-align: left;
     margin-top: 0.4em; }
+  #speakers .speaker-image {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: inline-block;
+    float: left; }
 
 #location {
   color: white;
