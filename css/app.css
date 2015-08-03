@@ -3905,12 +3905,14 @@ button, .button {
   padding: 0.5em; }
   #speakers .speaker-name {
     text-align: left;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-left: 65px; }
   #speakers .speaker-designation {
     text-align: left;
     font-size: 0.5em;
     font-style: italic;
-    margin-top: 0.2em; }
+    margin-top: 0.2em;
+    margin-left: 65px; }
   #speakers .speaker-description {
     text-align: left;
     margin-top: 0.4em; }
