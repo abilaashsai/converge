@@ -3907,6 +3907,8 @@ button, .button {
     text-align: left;
     font-weight: 400;
     margin-left: 65px; }
+    #speakers .speaker-name a {
+      color: #f06819; }
   #speakers .speaker-designation {
     text-align: left;
     font-size: 0.5em;
@@ -3922,6 +3924,10 @@ button, .button {
     position: relative;
     display: inline-block;
     float: left; }
+    #speakers .speaker-image img {
+      border-radius: 50px;
+      height: 50px;
+      width: 50px; }
 
 #location {
   color: white;
