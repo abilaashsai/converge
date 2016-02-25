@@ -21,8 +21,19 @@
     <![endif] -->
 
     <script src="js/custom.modernizr.js"></script>
+
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=15256248715";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--[if lte IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -95,6 +106,13 @@
   <div class="row">
     <div class="large-12 columns" data-anchor-target="#_about">
       <h4>Digital Strategy & Next Gen Customer Experience</h4> <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">The theme for this edition of Converge is <strong>“Digital Strategy & Next Gen Customer Experience"</strong>.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">Customer experience has been going through a major shift for quite sometime. Given the number of channels the customer can interact with, the demography using those channels, the advances in microelectronics and information technology; customer experience as a whole needs to be rethought and continuously enriched.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">Digital strategy at a very high level is about creating the right experiences to match customer needs and continuous customer engagement. Current businesses have digital strategy as a separate stream to manage their digital growth.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">Register now to attend the event. As an attendee, you will get to connect with like minded peers and gain insight from industry practitioners. </p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">Food and refreshments will be provided. Attendance is free of charge. If you have any questions write to us at <em>converge-chennai@thoughtworks.com</em>.</p>
+    </div>
+    <div class="large-12 columns">
+      <div class="fb-share-button" data-href="http://twchennai.github.io/converge/" data-layout="button_count"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twchennai.github.io/converge/" data-text="Check out">Tweet</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
     </div>
   </div>
 </section>
@@ -470,7 +488,7 @@
       _gaq.push(['_setAccount', 'UA-65698029-1']);
       _gaq.push(['_trackPageview']);
       (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 

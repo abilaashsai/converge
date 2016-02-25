@@ -21,8 +21,19 @@
     <![endif] -->
 
     <script src="js/custom.modernizr.js"></script>
+
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=15256248715";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--[if lte IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -95,6 +106,13 @@
   <div class="row">
     <div class="large-12 columns" data-anchor-target="#_about">
       <h4>Collective Intelligence: <br> Man, Machine and Internet</h4> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"> Terminator, Enders Game, Star Wars and Back to the Future...we are nothing short of amazed when man and machine communicate in these movies. The age this comes to light is not very far. In fact, we are experiencing such transformation this very moment in many forms.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"> Businesses collaborate to enhance customer experience. The everyday customer is more tech savvy than you could possibly imagine. Internet of Things is the name of the game in today’s world where man and machine collaborate, ideate and bring together an unparalleled level of intelligence.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">This edition of converge, we explore the endless possibilities of collective intelligence. Merging man, machine and internet…</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">Register now to attend the event and get blown away. What more, you get to meet people, gain industry insights and have loads of fun.</p> <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"> If you like to know more or have any questions, write to us at <em>converge-chennai@thoughtworks.com</em>.</p>
+    </div>
+    <div class="large-12 columns">
+      <div class="fb-share-button" data-href="http://twchennai.github.io/converge/" data-layout="button_count"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twchennai.github.io/converge/" data-text="Check out">Tweet</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
     </div>
   </div>
 </section>
@@ -460,7 +478,7 @@
       _gaq.push(['_setAccount', 'UA-65698029-1']);
       _gaq.push(['_trackPageview']);
       (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 
