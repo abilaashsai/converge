@@ -1,4 +1,4 @@
-# Converge Chennai
+# Converge Coimbatore
 
 # Development
 
